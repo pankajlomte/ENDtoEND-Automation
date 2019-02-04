@@ -8,12 +8,16 @@
 
 	<test name="Free CRM App Test Cases">
 		<classes>
+<<<<<<< HEAD
 			<class name="com.crm.qa.testcases.LoginPageTest">
 				<methods>
 					<include name="loginPageTitleTest"/>
 					<include name="loginTest"/>
 				</methods>
 			</class>
+=======
+			<class name="com.crm.qa.testcases.LoginPageTest"></class>
+>>>>>>> dac495e779100e4d863ee328892def0e87f2c71f
 		</classes>
 	</test>
 </suite>

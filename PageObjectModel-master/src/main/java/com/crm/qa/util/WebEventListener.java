@@ -24,6 +24,7 @@ public class WebEventListener extends TestBase implements WebDriverEventListener
 
 	public void beforeNavigateTo(String url, WebDriver driver) {
 		System.out.println("Before navigating to: '" + url + "'");
+		System.out.println("In WebEventListener Class -> Extends TestBase --> Implements WebDriverEventListner Interface");
 	}
 
 	public void afterNavigateTo(String url, WebDriver driver) {
